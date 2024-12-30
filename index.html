@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photography Portfolio Website</title>
+    <!-- ICONSCOUT CDN -->
+    <script src="https://kit.fontawesome.com/5bfeaa4780.js" crossorigin="anonymous"></script>
+    <!-- SWIPER JS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo"><img src="./assets/images/logo.png" alt="Nav Logo"></a>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+            <ul class="nav__socials">
+                <li><a href="https://www.instagram.com/tupikk19?igsh=MTRyMTYyM3VxNWhi" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="https://www.x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="fa-solid fa-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+    <!----------------------------- END OF NAVBAR ----------------------------------------->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__image-bg"></div>
+                <div class="header__image-lg">
+                    <img src="./assets/images/header.jpg" alt="Header Image">
+                </div>
+                <div class="header__image-sm">
+                    <img src="./assets/images/header.jpg" alt="Header Image">
+
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__head">
+                    <div class="empty header__empty"></div>
+                    <a class="header__tag">#Best Travel Photographer 2024</a>
+                </div>
+                <h1>See The Beauty Of The World Throught My Lense</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo totam consectetur similique adipisci
+                    quibusdam, temporibus voluptatibus facere tempore obcaecati, non ullam! Modi aspernatur ea est
+                    suscipit
+                    rerum eaque expedita quasi?
+                </p>
+                <a href="mailto:nikishovvladislav1@gmail.com" class="header__btn-md">Let's Talk</a>
+            </div>
+        </div>
+    </header>
+    <div class="header__frames">
+        <div class="header__frame">
+            <img src="./assets/images/frame1.jpg" alt="Header Frame One">
+        </div>
+        <div class="header__frame">
+            <img src="./assets/images/frame2.jpg" alt="Header Frame Two">
+        </div>
+    </div>
+    <a href="mailto:nikishovvladislav1@gmail.com" class="contact__btn header__btn">
+        <i class="fa-solid fa-paper-plane"></i>
+        <p>CONTACT ME - SEND AN EMAIL</p>
+    </a>
+    <!------------------------------------- END OF HEADER --------------------------------->
+
+    <section id="about">
+        <div class="container about__container">
+            <h2 class="about__title">About <br> Olga Jones</h2>
+            <a href="mailto:nikishovvladislav1@gmail.com" class="contact__btn about__btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <p>CONTACT ME - SEND AN EMAIL</p>
+            </a>
+            <div class="about__left">
+                <div class="about__image">
+                    <div class="about__image-bg"></div>
+                    <div class="about__image-lg">
+                        <img src="./assets/images/about.jpg" alt="About Olga Jones">
+                    </div>
+                    <div class="about__image-sm">
+                        <img src="./assets/images/about.jpg" alt="About Olga Jones">
+                    </div>
+                </div>
+            </div>
+            <div class="about__right">
+                <div class="empty"></div>about__empty
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic ex neque natus vero rem
+                    nobis voluptatum.
+                </p>
+                <p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic ex neque natus vero rem
+                    nobis voluptatum.
+                </p>
+                </p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic ex neque natus vero rem
+                nobis voluptatum.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------- END OF ABOUT SECTION --------------------------------->
+
+    <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery__head">
+                <h2 class="gallery__title">My gallery</h2>
+                <div class="empty gallery__empty"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae dolor aliquam repellendus iste
+                nulla explicabo, mollitia, odit nisi nesciunt ab? Quod numquam error praesentium at adipisci recusandae
+                ut minima!</p>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery1.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery2.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery3.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery4.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery5.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery6.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery7.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery8.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery9.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery10.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./assets/images/gallery11.jpg">
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!------------------------------------- END OF GALLERY SECTION --------------------------------->
+
+    <section id="exhibitions">
+        <div class="container exhibitions__container">
+            <h2 class="exhibitions__title">Exhibitions</h2>
+            <div class="empty exhibitions__empty"></div>
+            <div class="exhibitions__head">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur quam quisquam ut
+                    molestias vitae totam. Nisi incidunt saepe deleniti dignissimos iste odit unde nam quia delectus
+                    impedit, dicta possimus!
+                </p>
+                <a href="mailto:nikishovvladislav1@gmail.com" class="contact__btn exhibitions__btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <p>CONTACT ME - SEND AN EMAIL</p>
+                </a>
+            </div>
+
+            <div class="exhibitions__gallery">
+                <article><img src="./assets/images/ev.jpg"></article>
+                <article><img src="./assets/images/e1.jpg"></article>
+                <article><img src="./assets/images/e2.jpg"></article>
+                <article><img src="./assets/images/eh.jpg"></article>
+                <article><img src="./assets/images/e3.jpg"></article>
+                <article><img src="./assets/images/e4.jpg"></article>
+                <article><img src="./assets/images/e5.jpg"></article>
+            </div>
+
+        </div>
+
+    </section>
+    <!------------------------------------- END OF EXHIBITIONS SECTION --------------------------------->
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer__head">
+                <h2 class="footer_title">nikishovvladislav1@gmail.com</h2>
+                <a href="mailto:nikishovvladislav1@gmail.com" class="footer__btn"> <i
+                        class="fa-solid fa-paper-plane"></i>
+                </a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
